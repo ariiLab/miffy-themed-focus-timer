@@ -1,0 +1,148 @@
+body{
+    background-color: #a4b4bd;
+    color: white;
+    
+    font-family:  "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.miffy-container {
+    margin: 10px auto 30px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.miffy-container img {
+    width: 100% ;
+    border-radius: 12px ;
+    height: auto;
+    border-radius: 0 4px 10px rgba(0,0,0,0.3);
+    display: block;
+    
+}
+
+#timer {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+#timerSelect{
+    width: 20%;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 0;
+    background: beige ;
+    color: grey;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background: lightyellow ;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 7px;
+    transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: lightsalmon;
+}
+
+.music-section {
+    background: #7F8CAA ;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 380px;
+    margin: 20px auto;
+    color: #eee;
+    text-align: center;
+    box-shadow: 0 0 20px #5a5a5a44;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.music-section h2 {
+    color: #FFFBDE ;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 1.1 px;
+}
+
+.music-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.music-section select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background: beige ;
+    color: grey;
+    box-sizing: border-box;
+}
+
+.music-buttons button {
+    background: lightyellow ;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 7px;
+    transition: background 0.3s ease;
+}
+
+.music-buttons button:hover {
+    background: lightsalmon;
+}
+
+.credit {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #6c3483;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.credit a {
+  color: #8e44ad;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.credit a:hover {
+  color: #5b2c6f;
+  text-decoration: underline;
+}
