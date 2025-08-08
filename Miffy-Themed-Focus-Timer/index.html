@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miffy Focus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/Miffy_icon.ico" type="image/x-icon" />
+
+</head>
+<body>
+    <div class="app">
+        <h1>🖇️Focus With Miffy</h1>
+        <div class="miffy-container">
+             <img id="miffy" src="assets/miffy reading gif.gif" alt="Miffy Focus">
+        </div>
+
+        <div id="timer">25.00</div>
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resetBtn">Reset</button>
+
+        </div>
+
+        <section class="timer-section">
+        <select id="timerSelect">
+            <option value="900" >15 minutes</option>
+            <option value="1500">25 minutes (default)</option>
+            <option value="3000">50 minutes</option>
+        </select>
+        </section>
+
+        
+        
+        <section class="music-section">
+            <h2>Play Some Music ⋆˙⟡</h2>
+
+        <label for="trackSelect">Choose Track:</label>
+        <select id="trackSelect">
+            <option value="music/Track 1.mp3">Track 1 : Waiting waves</option>
+            <option value="music/Track 2.mp3">Track 2 : Waiting dreams</option>
+            <option value="music/Track 3.mp3">Track 3 : June 5 pm</option>
+        </select>
+
+        <audio id="audioPlayer"></audio>
+
+        <div class="music-buttons">
+            <button id="musicPrevBtn" aria-label="Play">
+                <i class="fa-solid fa-backward"></i>
+            </button>
+            <button id="musicPlayPauseBtn" aria-label="Play">
+                <i class="fa-solid fa-circle-pause"></i>
+            </button>
+            <button id="musicNextBtn" aria-label="Play">
+                <i class="fa-solid fa-forward"></i>
+            </button>
+
+        </div>
+
+        </section>
+    </div>
+
+    <div class="credit">
+  🎵 Music Credit To <a href="https://open.spotify.com/artist/3qcSnZtGR7qjbeg35yCT8x?si=eRhdQWgVRtOusIqrw3_3Ng" target="_blank" rel="noopener">Tottomori</a> ©
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
